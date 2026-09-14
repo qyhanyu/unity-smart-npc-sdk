@@ -18,10 +18,10 @@
 Unity 2021.3 及以上。打开 **Window → Package Manager → + → Add package from git URL**：
 
 ```
-https://github.com/你的用户名/unity-smart-npc-sdk.git
+https://github.com/qyhanyu/unity-smart-npc-sdk.git
 ```
 
-（也可以在 `Packages/manifest.json` 里加 `"com.orcarouter.smartnpc": "https://github.com/你的用户名/unity-smart-npc-sdk.git"`）
+（也可以在 `Packages/manifest.json` 里加 `"com.orcarouter.smartnpc": "https://github.com/qyhanyu/unity-smart-npc-sdk.git"`）
 
 ### 2. 配置
 
