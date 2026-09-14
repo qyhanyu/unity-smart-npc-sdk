@@ -48,6 +48,10 @@ namespace OrcaRouter.SmartNpc
         public string Model = "orcarouter/auto"; // "vendor/model" 或 "orcarouter/auto" 自动路由
         public int TimeoutSeconds = 60;
 
+        [Header("可选：归因标识（会显示在 OrcaRouter 控制台流量视图）")]
+        public string AppUrl = "";   // HTTP-Referer，如 https://github.com/qyhanyu/unity-smart-npc-sdk
+        public string AppName = "";  // X-Title，如 Unity Smart NPC SDK
+
         // ---------- 请求 / 响应 DTO（对齐 OpenAI chat.completions） ----------
 
         [Serializable]
@@ -101,6 +105,8 @@ namespace OrcaRouter.SmartNpc
             req.downloadHandler = new DownloadHandlerBuffer();
             req.SetRequestHeader("Content-Type", "application/json");
             req.SetRequestHeader("Authorization", "Bearer " + ApiKey);
+            if (!string.IsNullOrEmpty(AppUrl)) req.SetRequestHeader("HTTP-Referer", AppUrl);
+            if (!string.IsNullOrEmpty(AppName)) req.SetRequestHeader("X-Title", AppName);
             req.timeout = TimeoutSeconds;
 
             var tcs = new TaskCompletionSource<string>();

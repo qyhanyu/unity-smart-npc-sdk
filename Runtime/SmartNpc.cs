@@ -39,6 +39,9 @@ namespace OrcaRouter.SmartNpc
                 BaseUrl = config != null ? config.baseUrl : "https://api.orcarouter.ai/v1",
                 ApiKey = !string.IsNullOrEmpty(overrideApiKey) ? overrideApiKey : (config != null ? config.apiKey : ""),
                 Model = config != null ? config.model : "orcarouter/auto",
+                // 归因标识：让使用者的 OrcaRouter 控制台流量视图显示流量来自本 SDK
+                AppUrl = "https://github.com/qyhanyu/unity-smart-npc-sdk",
+                AppName = "Unity Smart NPC SDK",
             };
         }
 
