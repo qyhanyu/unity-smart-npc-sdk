@@ -1,0 +1,25 @@
+{
+  "name": "com.orcarouter.smartnpc",
+  "version": "0.1.0",
+  "displayName": "Smart NPC SDK (OrcaRouter)",
+  "description": "Unity 智能记忆 NPC SDK：几行代码让你的游戏 NPC 会聊天、有记忆。后端通过 OpenAI 兼容的 OrcaRouter 网关接入 200+ 大模型，一个 Key 自由切换模型。",
+  "unity": "2021.3",
+  "keywords": [
+    "npc",
+    "ai",
+    "llm",
+    "chatbot",
+    "memory",
+    "orcarouter",
+    "game"
+  ],
+  "author": {
+    "name": "Your Name",
+    "url": "https://github.com/your-username"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/unity-smart-npc-sdk"
+  }
+}
