@@ -26,7 +26,7 @@ https://github.com/qyhanyu/unity-smart-npc-sdk.git
 
 ### 2. 配置
 
-1. 准备一个 OpenAI 兼容的大模型 API Key（任意兼容 `chat/completions` 的网关均可）
+1. 准备一个 OpenAI 兼容的大模型 API Key（任意兼容 `chat/completions` 的网关均可）。还没有的话可以[通过这个链接注册](https://www.orcarouter.ai/ref/ref_3b7f96e0eb1f87ef642)
 2. 在 Project 窗口右键 → **Create → Smart NPC → NPC Config**，创建配置资产
 3. 填入 `Api Key`，按需修改人设（Persona）和模型名
 
