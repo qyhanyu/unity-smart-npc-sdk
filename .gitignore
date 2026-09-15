@@ -23,6 +23,8 @@ crashlytics-build.properties
 # 本地配置（可能含 API Key，千万别提交）
 *Config.asset
 *Config.asset.meta
+.env
+
 Assets/**/NpcConfig*.asset
 Assets/**/NpcConfig*.asset.meta
 

@@ -14,7 +14,7 @@ namespace OrcaRouter.SmartNpc
         [Tooltip("OpenAI 兼容网关地址，一般不用改")]
         public string baseUrl = "https://api.orcarouter.ai/v1";
 
-        [Tooltip("你的 OrcaRouter API Key，从 https://www.orcarouter.ai 控制台获取")]
+        [Tooltip("你的 OrcaRouter API Key，从 https://www.orcarouter.ai/ref/ref_3b7596e0ceb1f687e642 注册获取")]
         public string apiKey = "";
 
         [Tooltip("模型名，如 openai/gpt-4o、anthropic/claude-sonnet、deepseek/deepseek-chat，或 orcarouter/auto 自动路由")]

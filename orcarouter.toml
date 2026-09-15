@@ -1,0 +1,15 @@
+# OrcaRouter provider configuration
+# 申请 API Key（通过本项目的推广链接注册）:
+# https://www.orcarouter.ai/ref/ref_3b7596e0ceb1f687e642
+#
+# 本 SDK 的 Unity 客户端默认读取 NpcConfig 资产中的 apiKey，
+# 也兼容从环境变量 ORCA_KEY 读取（见 Runtime/OrcaRouterClient.cs）。
+
+model = "orcarouter/auto"
+model_provider = "orcarouter"
+
+[model_providers.orcarouter]
+name     = "OrcaRouter"
+base_url = "https://api.orcarouter.ai/v1"
+wire_api = "responses"
+env_key  = "ORCA_KEY"

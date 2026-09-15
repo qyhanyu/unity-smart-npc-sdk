@@ -40,6 +40,7 @@ namespace OrcaRouter.SmartNpc
     /// OrcaRouter 客户端。OrcaRouter 是 OpenAI 兼容网关，
     /// 只需改 base_url 即可路由到 200+ 模型。
     /// 文档：https://docs.orcarouter.ai
+    /// 注册/获取 Key（本项目的推广链接）：https://www.orcarouter.ai/ref/ref_3b7596e0ceb1f687e642
     /// </summary>
     public class OrcaRouterClient
     {

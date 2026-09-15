@@ -30,7 +30,7 @@ https://github.com/qyhanyu/unity-smart-npc-sdk.git
 2. 在 Project 窗口右键 → **Create → Smart NPC → NPC Config**，创建配置资产
 3. 填入 `Api Key`，按需修改人设（Persona）和模型名
 
-默认网关地址为 `https://api.orcarouter.ai/v1`，如需换其他兼容网关，改 `Base Url` 即可。
+默认网关地址为 `https://api.orcarouter.ai/v1`，如需换其他兼容网关，改 `Base Url` 即可。仓库根目录附带 [`orcarouter.toml`](orcarouter.toml) provider 配置和 [`.env.example`](.env.example) 环境变量模板，供命令行/服务端场景参考。
 
 ### 3. 开聊
 
